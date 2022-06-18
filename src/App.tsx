@@ -55,7 +55,7 @@ const Products = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 3em;
+  font-size: clamp(1.5em,7vw - 1em,3em);
   line-height: 44px;
 `
 
